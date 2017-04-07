@@ -1,0 +1,9 @@
+antigen bundles <<EOF
+command-not-found
+gitfast
+history
+history-substring-search
+zsh_reload
+autojump
+zsh-users/zsh-syntax-highlighting
+EOF

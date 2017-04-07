@@ -1,0 +1,9 @@
+*
+
+!/.gitignore
+!/.zshrc
+!/.spacemacs
+!/.shortcuts
+!/.antigenrc
+!/antigen.zsh
+!/kodi
