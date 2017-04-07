@@ -21,3 +21,8 @@ antigen theme bhilburn/hackersaurus
 export ALTERNATE_EDITOR=""
 export EDITOR="emacsclient -t"                  # $EDITOR should open in terminal
 alias e=$EDITOR
+
+if [ ! -d "$HOME/storage/" ]; then
+    echo 'setting up storage symlinks'
+    termux-setup-storage
+fi
