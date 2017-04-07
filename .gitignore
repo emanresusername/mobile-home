@@ -3,7 +3,8 @@
 !/.gitignore
 !/.zshrc
 !/.spacemacs
-!/.shortcuts
+!/.shortcuts/
 !/.antigenrc
 !/antigen.zsh
-!/kodi
+!/kodi/
+!/http-server/
