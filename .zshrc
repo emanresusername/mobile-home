@@ -1,6 +1,13 @@
 setopt HIST_IGNORE_SPACE
 
-source $HOME/antigen.zsh
+ANTIGEN_VERSION=1.4.0
+ANTIGEN_ZSH=$HOME/antigen.zsh
+if [ ! -f "$ANTIGEN_ZSH" ]; then
+    echo "getting antigen v$ANTIGEN_VERSION"
+    curl https://cdn.rawgit.com/zsh-users/antigen/v$ANTIGEN_VERSION/bin/antigen.zsh > "$ANTIGEN_ZSH"
+fi
+
+source "$ANTIGEN_ZSH"
 
 export _ANTIGEN_CACHE_ENABLED=true
 

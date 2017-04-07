@@ -5,6 +5,5 @@
 !/.spacemacs
 !/.shortcuts/
 !/.antigenrc
-!/antigen.zsh
 !/kodi/
 !/http-server/
