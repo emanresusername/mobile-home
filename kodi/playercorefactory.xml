@@ -115,12 +115,12 @@
         ********** EDIT THIS SECTION **********
         **********                   **********
     -->
-    <rule protocols="smb" player="BubbleUPnP" />
-    <rule dvdimage="true" player="BubbleUPnP"/>
-    <rule protocols="rtmp" player="BubbleUPnP"/>
-    <rule protocols="rtsp" player="BubbleUPnP" />
-    <rule protocols="sop" player="BubbleUPnP" />
-    <rule internetstream="true" player="BubbleUPnP" />
-    <rule video="true" player="BubbleUPnP"/> <!-- Default for anything else not listed -->
+    <rule protocols="smb" player="LocalCast" />
+    <rule dvdimage="true" player="LocalCast"/>
+    <rule protocols="rtmp" player="LocalCast"/>
+    <rule protocols="rtsp" player="LocalCast" />
+    <rule protocols="sop" player="LocalCast" />
+    <rule internetstream="true" player="LocalCast" />
+    <rule video="true" player="LocalCast"/> <!-- Default for anything else not listed -->
   </rules>
 </playercorefactory>
