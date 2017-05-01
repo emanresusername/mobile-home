@@ -6,4 +6,5 @@ history-substring-search
 zsh_reload
 autojump
 zsh-users/zsh-syntax-highlighting
+emanresusername/oh-my-zsh plugins/pasteboard
 EOF
