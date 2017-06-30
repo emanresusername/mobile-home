@@ -7,4 +7,5 @@ zsh_reload
 autojump
 zsh-users/zsh-syntax-highlighting
 emanresusername/oh-my-zsh plugins/pasteboard
+MichaelAquilina/zsh-emojis
 EOF
