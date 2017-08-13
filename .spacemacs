@@ -43,12 +43,10 @@ values."
      emacs-lisp
      git
      github
-     (evil-snipe :variables
-                 evil-snipe-enable-alternate-f-and-t-behaviors t)
+     evil-snipe
      shell-scripts
      (colors :variables
-             colors-colorize-identifiers 'all
-             colors-enable-nyan-cat-progress-bar ,(display-graphic-p))
+             colors-colorize-identifiers 'all)
      markdown
      org
      ;; (shell :variables
@@ -351,7 +349,7 @@ This function is called at the very end of Spacemacs initialization."
  '(magit-diff-section-arguments (quote ("--ignore-space-change" "--no-ext-diff" "-M" "-C")))
  '(package-selected-packages
    (quote
-    (winum which-key symon string-inflection restart-emacs rainbow-mode rainbow-identifiers mmm-mode markdown-toc markdown-mode insert-shebang hungry-delete highlight-indentation helm-make helm-company helm-c-yasnippet gh-md fuzzy fish-mode evil-snipe evil-mc dumb-jump company-statistics company-shell company color-identifiers-mode auto-yasnippet yasnippet ac-ispell auto-complete smartparens helm helm-core avy projectile magit with-editor ws-butler volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline smeargle rainbow-delimiters popwin pkg-info persp-mode pcre2el paradox orgit org-projectile org-present org-pomodoro org-plus-contrib org-download org-bullets open-junk-file neotree move-text magithub magit-gitflow magit-gh-pulls macrostep lorem-ipsum linum-relative link-hint info+ indent-guide htmlize hl-todo highlight-parentheses highlight-numbers hide-comnt help-fns+ helm-themes helm-swoop helm-purpose helm-projectile helm-mode-manager helm-gitignore helm-flx helm-descbinds helm-ag google-translate golden-ratio gnuplot github-search github-clone gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ gist flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav diff-hl define-word column-enforce-mode clean-aindent-mode browse-at-remote auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line))))
+    (powerline org-category-capture ghub+ apiwrap ghub gh diminish packed highlight evil undo-tree window-purpose imenu-list s magit-popup git-commit async dash alert hydra password-generator org-brain flycheck-bashate flycheck evil-org evil-lion editorconfig winum which-key symon string-inflection restart-emacs rainbow-mode rainbow-identifiers mmm-mode markdown-toc markdown-mode insert-shebang hungry-delete highlight-indentation helm-make helm-company helm-c-yasnippet gh-md fuzzy fish-mode evil-snipe evil-mc dumb-jump company-statistics company-shell company color-identifiers-mode auto-yasnippet yasnippet ac-ispell auto-complete smartparens helm helm-core avy projectile magit with-editor ws-butler volatile-highlights vi-tilde-fringe uuidgen use-package toc-org spaceline smeargle rainbow-delimiters popwin pkg-info persp-mode pcre2el paradox orgit org-projectile org-present org-pomodoro org-plus-contrib org-download org-bullets open-junk-file neotree move-text magithub magit-gitflow magit-gh-pulls macrostep lorem-ipsum linum-relative link-hint info+ indent-guide htmlize hl-todo highlight-parentheses highlight-numbers hide-comnt help-fns+ helm-themes helm-swoop helm-purpose helm-projectile helm-mode-manager helm-gitignore helm-flx helm-descbinds helm-ag google-translate golden-ratio gnuplot github-search github-clone gitconfig-mode gitattributes-mode git-timemachine git-messenger git-link git-gutter-fringe git-gutter-fringe+ gist flx-ido fill-column-indicator fancy-battery eyebrowse expand-region exec-path-from-shell evil-visualstar evil-visual-mark-mode evil-unimpaired evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-matchit evil-magit evil-lisp-state evil-indent-plus evil-iedit-state evil-exchange evil-escape evil-ediff evil-args evil-anzu eval-sexp-fu elisp-slime-nav diff-hl define-word column-enforce-mode clean-aindent-mode browse-at-remote auto-highlight-symbol auto-compile aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -2,9 +2,10 @@
 
 !/.gitignore
 !/.zshrc
+!/.zlogin
+!/.zlogout
 !/.spacemacs
 !/.shortcuts/
-!/.antigenrc
 !/kodi/
 !/http-server/
 !/.tmux.conf
