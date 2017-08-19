@@ -14,6 +14,10 @@ zplug "plugins/gitfast", from:oh-my-zsh
 zplug "plugins/command-not-found", from:oh-my-zsh
 zplug "emanresusername/zsh-plugins", use:cowfiles
 
+zplug "st42/termux-sudo", \
+      as:command, \
+      use:"sudo"
+
 zplug "MichaelAquilina/zsh-emojis"
 
 zplug "wting/autojump", \
