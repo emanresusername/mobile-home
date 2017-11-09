@@ -69,6 +69,9 @@ zplug "b4b4r07/enhancd", \
       use:init.sh, \
       on:"junegunn/fzf-bin"
 
+zplug "zpm-zsh/linuxbrew", \
+      use:"linuxbrew.plugin.zsh"
+
 POWERLEVEL9K_INSTALLATION_PATH=$ZPLUG_REPOS/bhilburn/powerlevel9k
 zplug "bhilburn/powerlevel9k", \
       use:powerlevel9k.zsh-theme
